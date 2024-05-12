@@ -1,10 +1,14 @@
 :root {
-    --dark-blue: #131529;
-    --light-blue: #1e293b;
+    --dark-blue: #131528;
+    --light-blue: #23283a;
 }
 
 body {
     background-color: var(--dark-blue);
+}
+
+a {
+    color: rgb(189, 34, 189)
 }
 
 h1,
@@ -14,8 +18,8 @@ h4,
 h5,
 h6,
 p,
-a,
-span {
+span,
+li {
     color: #fff;
     font-family: Arial;
 }
@@ -39,6 +43,10 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+nav ul li:hover, nav a:hover {
+    scale: 1.1;
 }
 
 .nav-title {
@@ -76,9 +84,43 @@ nav {
     fill: #fff;
     width: 24px;
     height: 24px;
-    transition: fill 0.3s ease;
 }
 
-.nav-social a:hover svg {
-    fill: #ddd;
+.wrapper {
+    height: 100%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.pfp {
+    border-radius: 10%;
+}
+
+.about-me {
+    display: flex;
+    align-items: center;
+}
+
+.about-me {
+    padding: 5%;
+}
+
+.about-me div {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.links {
+    background-color: var(--light-blue);
+    padding: 5%;
+    border-radius: 30px;
+}
+
+.current-projects {
+    padding: 5%;
+}
+
+footer{
+text-align: center;
+    padding: 3%;
 }
