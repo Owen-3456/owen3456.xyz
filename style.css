@@ -80,10 +80,11 @@ nav ul li:hover, nav a:hover {
     color: #ddd;
 }
 
-.nav-social svg {
+.nav-social .svg {
     fill: #fff;
     width: 24px;
     height: 24px;
+    filter: brightness(0) invert(1);
 }
 
 .wrapper {
