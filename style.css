@@ -1,6 +1,7 @@
 :root {
     --dark-blue: #2E3440;
     --light-blue: #3B4252;
+    --green : #a3bd8f;
 }
 
 body {
@@ -8,7 +9,7 @@ body {
 }
 
 a {
-    color: rgb(189, 34, 189)
+    color: var(--green);
 }
 
 h1,
