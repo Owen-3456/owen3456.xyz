@@ -130,6 +130,14 @@ th, td {
     border: 1px solid #fff;
 }
 
+section {
+    padding: 5%;
+}
+
+.project-card {
+    padding: 5%;
+}
+
 /* Mobile Friendly Adjustments */
 @media (max-width: 768px) {
     header, .wrapper {
