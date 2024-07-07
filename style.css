@@ -129,3 +129,32 @@ text-align: center;
 th, td {
     border: 1px solid #fff;
 }
+
+/* Mobile Friendly Adjustments */
+@media (max-width: 768px) {
+    header, .wrapper {
+        padding: 2% 5%;
+    }
+
+    .nav-links, .nav-social {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links li, .nav-social li {
+        margin: 5px 0;
+    }
+
+    .about-me, .my-hardware {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-me div, .my-hardware div {
+        margin: 10px 0;
+    }
+
+    .wrapper {
+        padding: 0 5%;
+    }
+}
