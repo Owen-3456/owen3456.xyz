@@ -173,4 +173,16 @@ td {
   .wrapper {
     padding: 0 5%;
   }
+
+  .project-card {
+    padding: 10px; /* Reduce padding */
+    margin: 10px 0; /* Add vertical margin for separation */
+    width: 90%;
+  }
+
+  .my-projects, .favourite-projects {
+    display: grid;
+    grid-template-columns: 1fr; /* Adjust grid to a single column layout */
+    gap: 20px;
+  }
 }
