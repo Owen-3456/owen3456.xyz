@@ -143,7 +143,6 @@ td {
 
 .project-card-link {
   text-decoration: none;
-
 }
 
 /* Mobile Friendly Adjustments */
@@ -185,7 +184,8 @@ td {
     width: 90%;
   }
 
-  .my-projects, .favourite-projects {
+  .my-projects,
+  .favourite-projects {
     display: grid;
     grid-template-columns: 1fr; /* Adjust grid to a single column layout */
     gap: 20px;
