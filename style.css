@@ -141,6 +141,11 @@ td {
   padding: 2%;
 }
 
+.project-card-link {
+  text-decoration: none;
+
+}
+
 /* Mobile Friendly Adjustments */
 @media (max-width: 768px) {
   header,
