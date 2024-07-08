@@ -20,7 +20,8 @@ h5,
 h6,
 p,
 span,
-li {
+li,
+a {
   color: #fff;
   font-family: consolas;
 }
