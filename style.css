@@ -10,6 +10,7 @@ body {
 
 a {
   color: var(--green);
+  font-family: consolas;
 }
 
 h1,
