@@ -22,7 +22,7 @@ p,
 span,
 li {
   color: #fff;
-  font-family: Arial;
+  font-family: consolas;
 }
 
 header {
@@ -139,6 +139,11 @@ td {
 
 .project-card {
   padding: 2%;
+}
+
+.project-card-link {
+  text-decoration: none;
+
 }
 
 /* Mobile Friendly Adjustments */
