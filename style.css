@@ -146,8 +146,12 @@ td {
   text-decoration: none;
 }
 
+#discord-status {
+  margin-left: 0;
+}
+
 /* Mobile Friendly Adjustments */
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   header,
   .wrapper {
     padding: 2% 5%;
@@ -182,7 +186,7 @@ td {
   .project-card {
     padding: 10px; /* Reduce padding */
     margin: 10px 0; /* Add vertical margin for separation */
-    width: 90%;
+    width: 75%;
   }
 
   .my-projects,
