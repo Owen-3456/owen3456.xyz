@@ -184,15 +184,15 @@ td {
   }
 
   .project-card {
-    padding: 10px; /* Reduce padding */
-    margin: 10px 0; /* Add vertical margin for separation */
+    padding: 10px;
+    margin: 10px 0;
     width: 75%;
   }
 
   .my-projects,
   .favourite-projects {
     display: grid;
-    grid-template-columns: 1fr; /* Adjust grid to a single column layout */
+    grid-template-columns: 1fr;
     gap: 20px;
   }
 }
