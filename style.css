@@ -146,11 +146,70 @@ td {
   text-decoration: none;
 }
 
-#discord-status {
-  margin-left: 0;
+.tooltip-text {
+  visibility: hidden;
+  width: 160px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -80px;
+  opacity: 0;
+  transition: opacity 0.3s;
 }
 
-/* Mobile Friendly Adjustments */
+.loader {
+  border: 4px solid rgba(255, 255, 255, 0.1);
+  border-left-color: transparent;
+  border-radius: 50%;
+}
+
+.loader {
+  border: 4px solid rgba(255, 255, 255, 0.1);
+  border-left-color: transparent;
+  width: 36px;
+  height: 36px;
+}
+
+.loader {
+  border: 4px solid rgba(255, 255, 255, 0.1);
+  border-left-color: transparent;
+  width: 36px;
+  height: 36px;
+  animation: spin89345 1s linear infinite;
+}
+
+@keyframes spin89345 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+#discord-status {
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+#discord-status svg {
+  width: 25px;
+  height: 25px;
+  margin-right: 8px;
+}
+
+.about-me-title {
+  margin: 0;
+}
+
 @media (max-width: 1000px) {
   header,
   .wrapper {
@@ -171,6 +230,10 @@ td {
   .about-me,
   .my-hardware {
     flex-direction: column;
+    text-align: center;
+  }
+
+  .container {
     text-align: center;
   }
 
@@ -195,4 +258,9 @@ td {
     grid-template-columns: 1fr;
     gap: 20px;
   }
+}
+
+.discord-status:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
 }
