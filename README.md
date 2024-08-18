@@ -1,15 +1,18 @@
-# [owen3456.xyz](https://owen3456.xyz)
+# owen3456.xyz
 
-### Hosting
+<div align="right">
+<img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/t/Owen-3456/owen3456.xyz">
+<img src="https://img.shields.io/github/last-commit/Owen-3456/owen3456.xyz">
+</div>
 
-Hosted on [Cloudflare Pages](https://pages.cloudflare.com/).
+View the site [here](https://owen3456.xyz/).
 
-### Theme
+**Info:**
 
-Uses [Nord Theme](https://www.nordtheme.com/) for the colour scheme.
+- Hosted on [Cloudflare Pages](https://pages.cloudflare.com/).
 
-### Components
+- Uses [Nord Theme](https://www.nordtheme.com/) for the colour scheme.
 
-Project cards are from [GitHub Readme Stats](https://github.com/anuraghazra/github-readme-stats).
+- Project cards are from [GitHub Readme Stats](https://github.com/anuraghazra/github-readme-stats).
 
-Discord status is from [lanyard](https://github.com/Phineas/lanyard).
+- Discord status is from [lanyard](https://github.com/Phineas/lanyard).
