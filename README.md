@@ -6,7 +6,7 @@ Hosted on [Cloudflare Pages](https://pages.cloudflare.com/).
 
 ### Theme
 
-Uses [Nord Theme](https://www.nordtheme.com/) for the color scheme.
+Uses [Nord Theme](https://www.nordtheme.com/) for the colour scheme.
 
 ### Components
 
