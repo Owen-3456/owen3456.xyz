@@ -1,6 +1,6 @@
 const footer = document.getElementById("footer")
 footer.innerHTML = `
-    <p>Source code and other information available on
+    <p>Website source code and details available on
         <a href="https://github.com/Owen-3456/owen3456.xyz" target="_blank">GitHub</a>
     </p>`
 
