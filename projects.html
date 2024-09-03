@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://avatars.githubusercontent.com/u/78411938" type="image/x-icon">
+    <title>Home | owen3456.xyz</title>
+</head>
+
+<body>
+
+    <header id="header">
+        <!-- contents from components.js -->
+    </header>
+
+    <div class="wrapper">
+
+        <section class="section-container-2">
+            <h1>My Projects</h1>
+            <p>For the most recent updates for all of my projects visit my <a
+                    href="https://github.com/Owen-3456">GitHub</a>.</p>
+        </section>
+
+        <section class="section-container">
+            <h1>PowerShell Profile</h1>
+            <a href="https://github.com/Owen-3456/powershell-profile">GitHub Repo</a>
+            <p>My custom PowerShell profile adds lots and functions and command line features to PowerShell 7</p>
+            <p>The setup script installs useful tools such as <a href="https://github.com/gerardog/gsudo">gsudo</a> and
+                <a href="https://github.com/sharkdp/bat">bat</a>.</p>
+            <h3>Installation</h3>
+            <p>Install my PowerShell profile by simply by running the following command in your terminal:</p>
+            <code id="setup-command">irm "https://owen3456.xyz/pwsh" | iex</code>
+            <button id="copyButton" onclick="copyToClipboard()">Copy</button>
+
+            <script>
+                function copyToClipboard() {
+                    const copyText = document.getElementById("setup-command").innerText;
+                    navigator.clipboard.writeText(copyText).then(() => {
+                        // Add a subtle notification to indicate successful copy
+                        const notification = document.createElement("div");
+                        notification.textContent = "Command copied to clipboard!";
+                        notification.style.position = "fixed";
+                        notification.style.top = "10px";
+                        notification.style.right = "10px";
+                        notification.style.padding = "10px";
+                        notification.style.background = "rgba(0, 0, 0, 0.8)";
+                        notification.style.color = "#fff";
+                        notification.style.borderRadius = "5px";
+                        notification.style.zIndex = "9999";
+                        document.body.appendChild(notification);
+                        setTimeout(() => {
+                            document.body.removeChild(notification);
+                        }, 2000);
+                    });
+                }
+            </script>
+
+        </section>
+
+        <footer id="footer">
+            <!-- contents from components.js -->
+        </footer>
+
+    </div>
+</body>
+
+<script src="components.js"></script>
+
+</html>
