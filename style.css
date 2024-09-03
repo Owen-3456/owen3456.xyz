@@ -21,7 +21,8 @@ h5,
 h6,
 p,
 span,
-li {
+li,
+code {
   color: #fff;
   font-family: consolas;
 }
@@ -117,8 +118,16 @@ nav a:hover {
 
 .links,
 .my-projects,
-.favourite-projects {
+.favourite-projects,
+.contact-details,
+.section-container {
   background-color: var(--light-blue);
+  padding: 3%;
+  border-radius: 30px;
+  margin-top: 3%;
+}
+
+.section-container-2 {
   padding: 3%;
   border-radius: 30px;
   margin-top: 3%;
@@ -211,6 +220,7 @@ td {
 }
 
 @media (max-width: 1000px) {
+
   header,
   .wrapper {
     padding: 2% 5%;
@@ -263,4 +273,32 @@ td {
 .discord-status:hover .tooltip-text {
   visibility: visible;
   opacity: 1;
+}
+
+.contact-details {
+  margin-top: 20%;
+  margin-bottom: 20%;
+}
+
+code {
+  background-color: #2e3440;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#copyButton {
+  background-color: var(--green);
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-family: consolas;
+  font-size: 16px;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+}
+
+#copyButton:hover {
+  background-color: #8faa7a;
 }
