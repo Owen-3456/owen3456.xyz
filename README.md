@@ -3,6 +3,7 @@
 <div align="right">
 <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/t/Owen-3456/owen3456.xyz">
 <img src="https://img.shields.io/github/last-commit/Owen-3456/owen3456.xyz">
+<img src="https://wakatime.com/badge/github/Owen-3456/owen3456.xyz.svg">
 </div>
 
 View the site [here](https://owen3456.xyz/).
