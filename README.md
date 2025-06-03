@@ -6,7 +6,7 @@
 <img src="https://wakatime.com/badge/github/Owen-3456/owen3456.xyz.svg">
 </div>
 
-View the site [here](https://owen3456.xyz/).
+~~View the site [here](https://owen3456.xyz/).~~ (Site no longer operational)
 
 **Info:**
 
