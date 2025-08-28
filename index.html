@@ -4,107 +4,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Owen's personal website - Computer Science student from England, UK, focusing on cyber security. View my projects and connect with me.">
-    <meta name="keywords" content="Owen, Computer Science, Cyber Security, PowerShell, Programming, GitHub">
-    <meta name="author" content="Owen">
 
-    <!-- Open Graph / Social Media -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://owen3456.xyz/">
-    <meta property="og:title" content="Owen3456 - Computer Science Student">
-    <meta property="og:description" content="Computer Science student from England, UK, focusing on cyber security.">
-    <meta property="og:image" content="https://avatars.githubusercontent.com/u/78411938">
-
-    <!-- Preconnect to external domains -->
-    <link rel="preconnect" href="https://avatars.githubusercontent.com">
-    <link rel="preconnect" href="https://github-readme-stats.vercel.app">
-    <link rel="preconnect" href="https://api.lanyard.rest">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-
-    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=JetBrains+Mono:400,700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="https://avatars.githubusercontent.com/u/78411938" type="image/x-icon">
-    <title>Home | owen3456.xyz</title>
+    <title>Owen</title>
 </head>
 
 <body>
+    <div class="container">
+        <!-- Profile Picture -->
+        <div class="profile">
+            <img src="https://avatars.githubusercontent.com/u/78411938" alt="Owen's profile picture" class="avatar">
+            <h1>Owen3456</h1>
+            <p class="subtitle">Cyber Security Student</p>
+            <div id="discord-status" class="status">
+                <div class="status-indicator"></div>
+                <span id="discord-status-text">Loading...</span>
+            </div>
+        </div>
 
-    <header id="header">
-        <!-- contents from components.js -->
-    </header>
-
-    <div class="wrapper">
-
-        <main>
-            <section class="about-me" aria-label="About me section">
-                <div class="about-me-image">
-                    <img class="pfp" src="https://avatars.githubusercontent.com/u/78411938"
-                        alt="Owen's GitHub profile picture - a young person with a friendly smile">
-                </div>
-                <div class="about-me-text">
-                    <h1 class="about-me-title">Hi, I'm Owen</h1>
-                    <p class="about-me-text">I'm a student from England, United Kingdom. I'm currently studying cyber
-                        security.</p>
-                    <p>I created this site to show the things I'm interested in. Enjoy Exploring!</p>
-                    <div id="discord-status" role="status" aria-live="polite">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"
-                            aria-hidden="true">
-                            <path fill="rgb(128, 132, 141)"
-                                d="M12 22q-2.075 0-3.9-.788t-3.175-2.137T2.788 15.9T2 12t.788-3.9t2.137-3.175T8.1 2.788T12 2t3.9.788t3.175 2.137T21.213 8.1T22 12t-.788 3.9t-2.137 3.175t-3.175 2.138T12 22" />
-                        </svg>
-                        <p id="discord-status-text">Loading status...</p>
-                    </div>
-                </div>
-            </section>
-
-            <script src="lanyard.js"></script>
-
-            <section class="featured-links" aria-label="Featured content areas">
-                <h2>Explore My Work</h2>
-                <div class="links-grid">
-                    <a href="projects.html" class="feature-card">
-                        <div class="card-icon">🚀</div>
-                        <h3>Projects</h3>
-                        <p>Discover my latest projects including PowerShell tools, web development, and open-source
-                            contributions</p>
-                        <span class="card-arrow">→</span>
-                    </a>
-
-                    <a href="stats.html" class="feature-card">
-                        <div class="card-icon">📊</div>
-                        <h3>Programming Stats</h3>
-                        <p>Real-time coding activity, language usage, and development patterns tracked via WakaTime</p>
-                        <span class="card-arrow">→</span>
-                    </a>
-
-                    <a href="https://github.com/Owen-3456" target="_blank" class="feature-card">
-                        <div class="card-icon">💻</div>
-                        <h3>GitHub Profile</h3>
-                        <p>Browse my repositories, contributions, and collaborate on open-source projects</p>
-                        <span class="card-arrow">↗</span>
-                    </a>
-
-                    <a href="contact.html" class="feature-card">
-                        <div class="card-icon">💬</div>
-                        <h3>Get In Touch</h3>
-                        <p>Connect with me for collaborations, questions, or just to say hello via email or Discord</p>
-                        <span class="card-arrow">→</span>
-                    </a>
-                </div>
-            </section>
-
-        </main>
-
-        <footer id="footer">
-            <!-- contents from components.js -->
-        </footer>
-
+        <!-- Social Links -->
+        <div class="social-links">
+            <a href="https://github.com/Owen-3456" target="_blank" class="social-link">GitHub</a>
+            <a href="https://discord.com/users/374960413583998977" target="_blank" class="social-link">Discord</a>
+            <a href="mailto:contact@owen3456.xyz" class="social-link">Email</a>
+        </div>
     </div>
-</body>
 
-<script src="components.js"></script>
+    <script src="lanyard.js"></script>
+</body>
 
 </html>
