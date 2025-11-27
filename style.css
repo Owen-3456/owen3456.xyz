@@ -114,6 +114,27 @@ body {
   color: #1a1a1a;
 }
 
+/* Social icons row */
+.social-links {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.social-link img {
+  width: 24px;
+  height: 24px;
+  display: block;
+  filter: brightness(0) invert(1);
+}
+
+.social-link:hover img {
+  opacity: 0.85;
+}
+
 /* Responsive design */
 @media (max-width: 768px) {
   .container {
@@ -134,5 +155,11 @@ body {
     width: 180px;
     padding: 0.6rem;
     font-size: 0.9rem;
+  }
+
+  .social-link img {
+    width: 18px;
+    height: 18px;
+    filter: brightness(0) invert(1);
   }
 }
