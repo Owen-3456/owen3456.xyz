@@ -1,4 +1,18 @@
 /* Reset and base styles */
+:root {
+  --bg: #1a1a1a;
+  --text: #ffffff;
+  --text-muted: #cccccc;
+  --text-muted-2: #aaaaaa;
+  --border: #ffffff;
+  --status-default: #666666;
+  --status-online: #4ade80;
+  --status-idle: #fbbf24;
+  --status-dnd: #ef4444;
+  --button-hover-bg: #ffffff;
+  --button-hover-text: #1a1a1a;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -7,8 +21,8 @@
 
 body {
   font-family: 'JetBrains Mono', monospace;
-  background-color: #1a1a1a;
-  color: #ffffff;
+  background-color: var(--bg);
+  color: var(--text);
   line-height: 1.4;
   min-height: 100vh;
   display: flex;
@@ -33,21 +47,21 @@ body {
   height: 120px;
   border-radius: 50%;
   margin-bottom: 1.5rem;
-  border: 2px solid #ffffff;
+  border: 2px solid var(--border);
 }
 
 .profile h1 {
   font-size: 2.5rem;
   font-weight: 400;
   margin-bottom: 0.5rem;
-  color: #ffffff;
+  color: var(--text);
   letter-spacing: 1px;
   text-transform: uppercase;
 }
 
 .subtitle {
   font-size: 1rem;
-  color: #cccccc;
+  color: var(--text-muted);
   margin-bottom: 1rem;
   font-weight: 300;
   text-transform: lowercase;
@@ -60,7 +74,7 @@ body {
   justify-content: center;
   gap: 0.6rem;
   font-size: 0.9rem;
-  color: #aaaaaa;
+  color: var(--text-muted-2);
   margin-top: 0.75rem;
 }
 
@@ -68,23 +82,23 @@ body {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background-color: #666666;
+  background-color: var(--status-default);
 }
 
 .status.online .status-indicator {
-  background-color: #4ade80;
+  background-color: var(--status-online);
 }
 
 .status.idle .status-indicator {
-  background-color: #fbbf24;
+  background-color: var(--status-idle);
 }
 
 .status.dnd .status-indicator {
-  background-color: #ef4444;
+  background-color: var(--status-dnd);
 }
 
 .status.offline .status-indicator {
-  background-color: #666666;
+  background-color: var(--status-default);
 }
 
 /* Social links */
@@ -100,9 +114,9 @@ body {
   width: 200px;
   padding: 0.75rem;
   background-color: transparent;
-  color: #ffffff;
+  color: var(--text);
   text-decoration: none;
-  border: 2px solid #ffffff;
+  border: 2px solid var(--border);
   transition: all 0.15s ease;
   font-weight: 300;
   font-size: 1rem;
@@ -110,8 +124,8 @@ body {
 }
 
 .link-button:hover {
-  background-color: #ffffff;
-  color: #1a1a1a;
+  background-color: var(--button-hover-bg);
+  color: var(--button-hover-text);
 }
 
 /* Social icons row */
