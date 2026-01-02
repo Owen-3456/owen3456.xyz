@@ -30,7 +30,7 @@ body {
   align-items: center;
   justify-content: center;
   gap: 2rem;
-  margin-bottom: 1.15rem;
+  margin-bottom: 0.5rem;
   width: 100%;
   max-width: 520px;
 }
@@ -74,12 +74,14 @@ body {
 }
 
 .status {
-  display: inline-flex;
+  display: flex;
   align-items: center;
+  justify-content: center;
   gap: 0.6rem;
   font-size: 0.85rem;
   color: #9b9b9b;
-  margin: 0.15rem 0 0.5rem 0;
+  margin: 0 0 1.1rem 0;
+  width: 100%;
 }
 
 .status-indicator {
@@ -147,8 +149,13 @@ body {
     margin-bottom: 2rem;
   }
 
-  .profile-left {
-    order: 0;
+  .profile-info {
+    text-align: center;
+  }
+
+  .status {
+    justify-content: center;
+    margin-bottom: 1.1rem;
   }
 
   .profile-info {
