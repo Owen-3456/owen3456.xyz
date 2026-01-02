@@ -84,6 +84,12 @@ body {
   width: 100%;
 }
 
+.status span#discord-status-text {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  display: inline-block;
+}
+
 .status-indicator {
   width: 8px;
   height: 8px;
